@@ -77,10 +77,6 @@ border-radius: 50%;       /* Make the div circular */
 overflow: hidden;         /* Ensure the image stays within the circle */
 }
 
-.avatar > img {
-  border-radius: 50%;       /* Make the image circular */
-  object-fit: cover;}
-
 .progress-bar {
   text-transform: uppercase;
   font-size: 10px;
