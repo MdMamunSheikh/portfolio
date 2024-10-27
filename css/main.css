@@ -75,7 +75,6 @@ width: 100px;             /* Set the width of the avatar */
 height: 100px;            /* Set the height (same as width for a circle) */
 border-radius: 50%;       /* Make the div circular */
 overflow: hidden;         /* Ensure the image stays within the circle */
-padding: 0;               /* Optional: Remove padding */
 }
 
 .avatar > img {
