@@ -78,7 +78,7 @@ overflow: hidden;         /* Ensure the image stays within the circle */
 }
 
 .skills-section {
-  text-align: center;
+  text-align: left;
   width: 100%;
   max-width: 90%;}
 
