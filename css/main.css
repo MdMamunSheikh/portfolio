@@ -96,17 +96,16 @@ overflow: hidden;         /* Ensure the image stays within the circle */
     background-color: #ffffff; /* White background */
     border: 1px solid #000; /* Black border */
     color: #000; /* Black text */
-    font-size: 1rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Initial shadow for card */
+    font-size: 0.9rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Initial shadow for card */
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
 }
 
 .chip:hover {
     transform: scale(1.1); /* Slightly enlarge on hover */
-    background-color: #3bc0ea; /* Background color change on hover */
-    color: #fff; /* White text color on hover */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Higher elevation on hover */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Higher elevation on hover */
 }
 
 .progress-bar {
