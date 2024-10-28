@@ -104,8 +104,7 @@ overflow: hidden;         /* Ensure the image stays within the circle */
 
 .chip:hover {
     transform: scale(1.1); /* Slightly enlarge on hover */
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Higher elevation on hover */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);  /* Higher elevation on hover */
 }
 
 .progress-bar {
