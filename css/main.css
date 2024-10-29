@@ -133,6 +133,22 @@ body {
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Higher elevation on hover */
 }
 
+.award-img {
+  border: 5px solid transparent;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
+  width: 50%; /* Adjust width to fit the content */
+  margin-left: 5%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  align-items: flex-start;
+  object-fit: cover;
+}
+.award-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 .ul-section {
   list-style-type: none; /* Removes default bullets */
   padding: 0; /* Removes default padding */
@@ -141,14 +157,16 @@ body {
 .ul-section > li {
   position: relative; /* Position relative for positioning custom bullet */
   padding-left: 20px; /* Space for the custom bullet */
+  margin-bottom: 8px;
 }
 
 li::before {
+  display: flex;
   content: ""; /* Empty content for the bullet */
   position: absolute; /* Absolute positioning */
   left: 0; /* Positioning to the left */
-  top: 50%; /* Aligns the bullet vertically to the middle */
-  transform: translateY(-50%); /* Adjust for perfect centering */
+  /*top: 50%;  Aligns the bullet vertically to the middle */
+  transform: translateY(0.5rem); /* Adjust for perfect centering */
   width: 8px; /* Width of the bullet */
   height: 8px; /* Height of the bullet */
   border-radius: 100%; /* Makes the bullet round */
@@ -161,6 +179,10 @@ li::before {
 .education-li::before {
   border-color: var(--bs-teal);
 }
+.award-li::before {
+  border-color: var(--bs-secondary);
+}
+
 form {
   margin-bottom: 20px;
 }
